@@ -10,7 +10,68 @@
 
 ## Overview
 
-Lab Tracker is a modern, efficient cross-platform application developped using Flutter framework, in order to improve how laboratory professionals manage their work. By combining intuitive task management with experiment tracking capabilities, it offers a solution for laboratory workflow optimization.
+Lab Tracker is a modern, efficient cross-platform application developed using the Flutter framework to improve how laboratory professionals manage their work. By combining intuitive task management with experiment tracking capabilities, it offers a solution for laboratory workflow optimization.
+
+You can check the collapsing taps below for UI Design and Layout, with an overview of the features:
+
+<details>
+<summary><strong>Authentication</strong></summary>
+
+<div align="center">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/authentication/Screenshot_2025-01-18-09-54-28-478_com.example.lab_tracker_app.jpg" alt="Authentication 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/authentication/Screenshot_2025-01-18-09-54-38-249_com.example.lab_tracker_app.jpg" alt="Authentication 2" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/authentication/Screenshot_2025-01-18-09-54-33-567_com.example.lab_tracker_app.jpg" alt="Authentication 3" width="150">
+</div>
+
+</details>
+
+<details>
+<summary><strong>Dashboard</strong></summary>
+
+<div align="center">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-24-481_com.example.lab_tracker_app.jpg" alt="Dashboard 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-28-234_com.example.lab_tracker_app.jpg" alt="Dashboard 2" width="150">
+</div>
+
+</details>
+
+<details>
+<summary><strong>Tasks</strong></summary>
+
+<div align="center">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/task%20managemnet/Screenshot_2025-01-18-09-55-32-889_com.example.lab_tracker_app.jpg" alt="Task 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/task%20managemnet/Screenshot_2025-01-18-09-55-37-537_com.example.lab_tracker_app.jpg" alt="Task 2" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/task%20managemnet/Screenshot_2025-01-18-09-55-43-046_com.example.lab_tracker_app.jpg" alt="Task 3" width="150">
+</div>
+
+</details>
+
+<details>
+<summary><strong>Experiments</strong></summary>
+
+<div align="center">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/experiment%20managemnet/Screenshot_2025-01-18-09-55-55-662_com.example.lab_tracker_app.jpg" alt="Experiment 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/experiment%20managemnet/Screenshot_2025-01-18-09-56-04-399_com.example.lab_tracker_app.jpg" alt="Experiment 2" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/experiment%20managemnet/Screenshot_2025-01-18-09-56-07-470_com.example.lab_tracker_app.jpg" alt="Experiment 3" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/experiment%20managemnet/Screenshot_2025-01-18-09-56-11-933_com.example.lab_tracker_app.jpg" alt="Experiment 4" width="150">
+</div>
+
+</details>
+
+<details>
+<summary><strong>Profile</strong></summary>
+
+<div align="center">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/profile/Screenshot_2025-01-18-09-56-14-340_com.example.lab_tracker_app.jpg" alt="Profile 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/profile/Screenshot_2025-01-18-09-56-19-360_com.example.lab_tracker_app.jpg" alt="Profile 2" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/profile/Screenshot_2025-01-18-09-56-22-289_com.example.lab_tracker_app.jpg" alt="Profile 3" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/profile/Screenshot_2025-01-18-09-56-25-900_com.example.lab_tracker_app.jpg" alt="Profile 4" width="150">
+</div>
+
+</details>
+
+
+
 
 ## Features
 
@@ -66,6 +127,9 @@ The Lab Tracker roadmap includes exciting features that will further enhance lab
   - connectivity_plus
   - get_storage
   - flutter_localization
+ 
+## ❗IMPORTANT❗
+Some of the features are yet to be completed, like Notifications, and Help section.
 
 ## Installation
 
@@ -97,7 +161,6 @@ flutter run
 For detailed documentation, please see:
 - [User Guide](docs/USER_GUIDE.md)
 - [Technical Documentation](docs/TECHNICAL.md)
-- [API Reference](docs/API.md)
 
 ## About the Developer
 
