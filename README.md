@@ -27,8 +27,8 @@ Lab Tracker is a modern, efficient cross-platform application developed using th
 <summary><strong>Dashboard</strong></summary>
 
 <div align="center">
-  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-24-481_com.example.lab_tracker_app.jpg" alt="Dashboard 1" width="200">
-  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-24-481_com.example.lab_tracker_app.jpg" alt="Dashboard 2" width="200">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-24-481_com.example.lab_tracker_app.jpg" alt="Dashboard 1" width="150">
+  <img src="https://github.com/jaliil-9/lab-tracker/blob/main/assets/screenshots/dashboard/Screenshot_2025-01-18-09-55-28-234_com.example.lab_tracker_app.jpg" alt="Dashboard 2" width="150">
 </div>
 
 </details>
