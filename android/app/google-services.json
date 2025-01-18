@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361942648127",
+    "project_id": "lab-tracker-4b51a",
+    "storage_bucket": "lab-tracker-4b51a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361942648127:android:78242aa6df0f8b61b37f8a",
+        "android_client_info": {
+          "package_name": "com.example.lab_tracker_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrjCdlFqmN8v0ZDtCjo_CKNVpV1X93Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
