@@ -6,12 +6,52 @@
 ```
 lab_tracker/
 ├── lib/
-│   ├── controllers/    # GetX controllers
-│   ├── models/        # Data models
-│   ├── services/      # Firebase services
-│   ├── ui/           # UI components
-│   ├── utils/        # Utilities
-│   └── main.dart     # Entry point
+│   ├── app.dart                       # Application setup
+│   ├── home_page.dart                 # Main home page
+│   ├── firebase_options.dart          # Firebase setup
+│   ├── main.dart                      # Entry point
+│   ├── common/                        # Shared bindings
+│   ├── data/repositories/             # Authentication & data management services
+│   │   ├── auth_repository.dart       # Handles authentication
+│   │   ├── experiment_repository.dart # Handles experiment-related data
+│   │   ├── task_repository.dart       # Handles task-related data
+│   │   └── user_repository.dart       # Handles user-related data
+│   ├── features/                      # Core application features
+│   │   ├── authentication/            # Authentication module
+│   │   │   ├── controllers/           # Business logic for authentication
+│   │   │   ├── models/                # Data models for authentication
+│   │   │   └── screens/               # UI screens for authentication
+│   │   │       ├── login_screen.dart
+│   │   │       ├── signup_screen.dart
+│   │   │       ├── email_verification.dart
+│   │   │       └── password_reset_screen.dart
+│   │   ├── data_management/           # Task & experiment management module
+│   │   │   ├── tasks/                 # Task management
+│   │   │   │   ├── controllers/       # Business logic for tasks
+│   │   │   │   ├── models/            # Data models for tasks
+│   │   │   │   └── screens/           # UI screens for tasks
+│   │   │   │       ├── task_screen.dart
+│   │   │   │       └── task_detail_screen.dart
+│   │   │   ├── experiments/           # Experiment management
+│   │   │   │   ├── controllers/       # Business logic for experiments
+│   │   │   │   ├── models/            # Data models for experiments
+│   │   │   │   └── screens/           # UI screens for experiments
+│   │   │   │       ├── experiment_screen.dart
+│   │   │   │       └── experiment_detail_screen.dart
+│   │   ├── personalization/           # Personalization module
+│   │   │   ├── controllers/           # Business logic for personalization
+│   │   │   ├── models/                # Data models for personalization
+│   │   │   └── screens/               # UI screens for personalization
+│   │   │       ├── profile_screen.dart
+│   │   │       ├── settings_screen.dart
+│   │   │       ├── help_screen.dart
+│   │   │       └── about_screen.dart
+│   ├── utils/                         # Utility functions or classes
+│   │   ├── constants                  # Common constants
+│   │   ├── exceptions.dart            # Exceptions handlers
+│   │   ├── helpers.dart               # elper methods
+│   │   └── widgets.dart               # Reusable widgets
+
 ```
 
 ## Dependencies
@@ -36,24 +76,3 @@ dependencies:
 - GetX implementation
 - Controllers structure
 - Dependency injection
-
-## Data Models
-```dart
-// Task Model
-class Task {
-  final String id;
-  final String name;
-  final String? description;
-  final DateTime? deadline;
-  // ... other properties
-}
-
-// Experiment Model
-class Experiment {
-  final String id;
-  final String name;
-  final String objective;
-  final List<String> tools;
-  final String status;
-  // ... other properties
-}
