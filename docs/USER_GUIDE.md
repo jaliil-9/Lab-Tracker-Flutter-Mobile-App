@@ -2,7 +2,7 @@
 
 ## Getting Started
 ### Installation
-1. Download Lab Tracker from [this drive link](https://drive.google.com/file/d/1v9B6bKQPwBGRlbTGvC98UdlRS_smFMDj/view?usp=drive_link)
+1. Download Lab Tracker from [this drive link](https://drive.google.com/file/d/1v9B6bKQPwBGRlbTGvC98UdlRS_smFMDj/view?usp=drive_link) (it's safe, don't worry).
 2. Sign up using email or Google account
 3. Verify your email if using email registration
 
