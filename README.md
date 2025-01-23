@@ -12,7 +12,7 @@
 
 Lab Tracker is a modern, efficient cross-platform application developed using the Flutter framework to improve how laboratory professionals manage their work. By combining intuitive task management with experiment tracking capabilities, it offers a solution for laboratory workflow optimization.
 
-You can check the collapsing taps below for UI Design and Layout, with an overview of the features:
+You can download the app and try it out from this [Drive Link](https://drive.google.com/file/d/1v9B6bKQPwBGRlbTGvC98UdlRS_smFMDj/view), or you can check the collapsing taps below for UI Design and Layout, with an overview of the features:
 
 <details>
 <summary><strong>Authentication</strong></summary>
